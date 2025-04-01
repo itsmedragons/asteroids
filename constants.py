@@ -8,6 +8,4 @@ ASTEROID_KINDS = 3
 ASTEROID_SPAWN_RATE = 0.8  # seconds
 ASTEROID_MAX_RADIUS = ASTEROID_MIN_RADIUS * ASTEROID_KINDS
 
-def screen_size():
-    print(f"Screen width: {SCREEN_WIDTH}")
-    print(f"Screen height: {SCREEN_HEIGHT}")
+PLAYER_RADIUS = 20
