@@ -21,6 +21,7 @@ def main():
 
 
         dt = clock.tick(60) / 1000.0 # 60 FPS
+        player.update(dt)
             
 
 if __name__ == "__main__":
